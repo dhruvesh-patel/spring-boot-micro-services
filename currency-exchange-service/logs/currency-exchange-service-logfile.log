@@ -1,0 +1,88 @@
+2020-06-22 11:50:19,493 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-22 11:50:21,817 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:8888
+2020-06-22 11:50:23,695 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-06-22 11:50:23,698 WARN org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/currency-exchange-service/default": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+2020-06-22 11:50:23,712 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-06-22 11:50:27,771 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=828eb8d2-1213-3ac6-ab6d-98908748db14
+2020-06-22 11:50:31,484 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2020-06-22 11:50:31,528 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8000"]
+2020-06-22 11:50:31,531 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-06-22 11:50:31,533 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-22 11:50:31,959 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-06-22 11:50:31,961 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 8158 ms
+2020-06-22 11:50:34,031 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-22 11:50:35,162 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-06-22 11:50:35,623 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-22 11:50:35,926 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8000"]
+2020-06-22 11:50:36,275 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path ''
+2020-06-22 11:50:36,383 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CurrencyExchangeServiceApplication in 20.1 seconds (JVM running for 24.404)
+2020-06-22 11:51:57,825 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-22 11:51:57,828 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-06-22 11:51:57,861 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8000-exec-1] Completed initialization in 32 ms
+2020-06-22 11:52:39,217 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-7] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-22 11:52:41,115 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:8888
+2020-06-22 11:52:42,135 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-06-22 11:52:42,136 WARN org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/currency-exchange-service/default": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+2020-06-22 11:52:42,141 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-06-22 11:52:43,944 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=828eb8d2-1213-3ac6-ab6d-98908748db14
+2020-06-22 11:52:44,255 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2020-06-22 11:52:44,260 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8000"]
+2020-06-22 11:52:44,262 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-06-22 11:52:44,263 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-22 11:52:44,437 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-06-22 11:52:44,438 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2283 ms
+2020-06-22 11:52:45,336 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-22 11:52:45,855 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-06-22 11:52:46,146 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-22 11:52:46,298 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8000"]
+2020-06-22 11:52:46,322 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path ''
+2020-06-22 11:52:46,593 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CurrencyExchangeServiceApplication in 7.034 seconds (JVM running for 154.615)
+2020-06-22 11:52:46,622 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-06-22 11:52:46,634 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-22 11:52:46,635 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-06-22 11:52:46,646 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8000-exec-1] Completed initialization in 10 ms
+2020-06-22 11:52:46,713 INFO com.dpinc.microservices.currencyexchangeservice.CurrencyExchangeController [http-nio-8000-exec-1] The Exchange value from USD to SGD conversion is 1.5
+2020-06-22 11:52:46,721 INFO com.dpinc.microservices.currencyexchangeservice.CurrencyExchangeController [http-nio-8000-exec-1] Exchange value : ExchangeValue(id=null, from=SGD, to=null, conversionMultiple=1.5)
+2020-06-22 11:53:15,633 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-11] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-22 11:53:16,683 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:8888
+2020-06-22 11:53:17,708 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-06-22 11:53:17,709 WARN org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/currency-exchange-service/default": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+2020-06-22 11:53:17,714 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-06-22 11:53:19,474 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=828eb8d2-1213-3ac6-ab6d-98908748db14
+2020-06-22 11:53:19,948 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2020-06-22 11:53:19,952 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8000"]
+2020-06-22 11:53:19,955 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-06-22 11:53:19,956 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-22 11:53:20,153 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-06-22 11:53:20,154 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2428 ms
+2020-06-22 11:53:20,847 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-22 11:53:21,243 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-06-22 11:53:21,387 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-22 11:53:21,498 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8000"]
+2020-06-22 11:53:21,557 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path ''
+2020-06-22 11:53:21,631 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-22 11:53:21,633 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-06-22 11:53:21,667 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8000-exec-1] Completed initialization in 6 ms
+2020-06-22 11:53:21,698 INFO com.dpinc.microservices.currencyexchangeservice.CurrencyExchangeController [http-nio-8000-exec-1] The Exchange value from USD to SGD conversion is 1.5
+2020-06-22 11:53:21,701 INFO com.dpinc.microservices.currencyexchangeservice.CurrencyExchangeController [http-nio-8000-exec-1] Exchange value : ExchangeValue(id=1, from=USD, to=SGD, conversionMultiple=1.5)
+2020-06-22 11:53:21,895 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CurrencyExchangeServiceApplication in 6.016 seconds (JVM running for 189.917)
+2020-06-22 11:53:21,948 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2020-06-22 12:39:53,884 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-19] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-22 12:39:55,983 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Fetching config from server at : http://localhost:8888
+2020-06-22 12:39:57,020 INFO org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-06-22 12:39:57,021 WARN org.springframework.cloud.config.client.ConfigServicePropertySourceLocator [restartedMain] Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/currency-exchange-service/default": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+2020-06-22 12:39:57,023 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-06-22 12:39:58,924 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=828eb8d2-1213-3ac6-ab6d-98908748db14
+2020-06-22 12:39:59,302 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2020-06-22 12:39:59,305 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8000"]
+2020-06-22 12:39:59,307 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-06-22 12:39:59,312 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-06-22 12:39:59,494 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-06-22 12:39:59,498 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2464 ms
+2020-06-22 12:40:00,153 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-22 12:40:00,420 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-06-22 12:40:00,626 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-06-22 12:40:00,807 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8000"]
+2020-06-22 12:40:00,834 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path ''
+2020-06-22 12:40:00,925 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CurrencyExchangeServiceApplication in 6.741 seconds (JVM running for 2988.946)
+2020-06-22 12:40:00,935 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
