@@ -1,0 +1,1 @@
+Spring cloud config server - Called Limits Service to keep config of whole application microservices and keep architecture loosely coupled. 
