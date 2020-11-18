@@ -1,1 +1,1 @@
-Spring cloud config server - Called Limits Service to keep config of whole application microservices and keep architecture loosely coupled. 
+This repo is for Spring boot microservices - Called Limits Service to keep config of whole application microservices and keep architecture loosely coupled. 
