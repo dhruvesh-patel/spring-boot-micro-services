@@ -1,4 +1,4 @@
-This repo is for Spring boot microservices - the microservices are loosely coupled, autonomous, independantly deployable services that are developed around business capabilities. In this repo, forex Conversion or remittance platform use case is used as reference. There are 2 microservices and one eureka discovery server from spring cloud. 
+This repo is for Spring boot microservices - the microservices are loosely coupled, autonomous, independently deployable services that are developed around business capabilities. In this repo, forex Conversion or remittance platform use case is used as reference. There are 2 microservices and one eureka discovery server from spring cloud. 
 
 - Currency Exchange Service - Provides latest exchange rate for a pair of from and to currency. Let say GBP to INR exchange rate is 98.
 
